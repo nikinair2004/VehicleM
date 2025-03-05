@@ -1,0 +1,115 @@
+.app {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(168, 177, 215);
+  border: 1px solid rgb(120, 99, 155);
+
+  .addHome {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(115, 4, 20);
+    background-color: rgb(113, 198, 160);
+    color: rgb(136, 58, 118);
+    font-weight: bold;
+  }
+
+  .seegraph {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(115, 4, 20);
+    background-color: rgb(113, 198, 160);
+    color: rgb(136, 58, 118);
+    font-weight: bold;
+  }
+  .seegraphpie {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(115, 4, 20);
+    background-color: rgb(113, 198, 160);
+    color: rgb(136, 58, 118);
+    font-weight: bold;
+  }
+  .seereport {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(115, 4, 20);
+    background-color: rgb(113, 198, 160);
+    color: rgb(136, 58, 118);
+    font-weight: bold;
+  }
+  .searchvehicle {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(115, 4, 20);
+    background-color: rgb(113, 198, 160);
+    color: rgb(136, 58, 118);
+    font-weight: bold;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .vehicle {
+    display: flex;
+
+    .vehicle {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+     
+      button {
+        padding: 3px 6px;
+        background-color: rgb(206, 138, 138);
+        cursor: pointer;
+      } 
+      .delete {
+        border: 1px solid rgb(239, 202, 202);
+        color: rgb(33, 4, 87);
+      }
+      .update {
+        border: 1px solid rgb(49, 20, 133);
+        color: rgb(12, 12, 125);
+        background-color: rgb(183, 200, 163);
+      } 
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid gray;
+    }
+
+    textarea {
+      padding: 10px;
+    }
+
+    button {
+      border: none;
+      padding: 10px;
+      background-color: rgb(191, 188, 90);
+      background-color: rgb(67, 11, 139);
+      color: rgb(149, 167, 101);
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

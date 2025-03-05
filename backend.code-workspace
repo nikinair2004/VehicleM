@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "../../../backend"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "xprotocol",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 33060,
+				"driver": "MySQL",
+				"name": "MySQL.Local",
+				"database": "test",
+				"username": "root",
+				"password": "Sundaran12",
+				"connectionTimeout": 30
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "MYSQL.local",
+				"database": "test",
+				"username": "root",
+				"password": "Sundaran12"
+			}
+		]
+	}
+}
